@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'transferwise/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "transferwise-rb"
+  spec.name          = "transferwise"
   spec.version       = Transferwise::VERSION
   spec.authors       = ["Harshvardhan Parihar", "Fernando Gorodscy"]
   spec.email         = ["harsh@milaap.org", "fegorodscy@gmail.com"]
 
   spec.summary       = "Ruby gem for Transferwise Apis"
   spec.description   = "Ruby gem for Transferwise Apis"
-  spec.homepage      = "https://github.com/fegorodscy/transferwise-rb"
+  spec.homepage      = "https://github.com/OrestF/transferwise"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
